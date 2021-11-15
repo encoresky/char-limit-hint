@@ -1,0 +1,13 @@
+<textarea id="element-1"></textarea>
+</br>
+<input id="element-2" type="text">
+</br>
+<div id="element-3">Non allowed element</div>
+</br>
+
+<script src="../index.js"></script>
+<script>
+  NodeCharElement("#element-1").charLimit(10);
+  NodeCharElement("#element-2").charLimit(10);
+  NodeCharElement("#element-3").charLimit(10);
+</script>

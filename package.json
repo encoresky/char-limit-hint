@@ -1,0 +1,25 @@
+{
+  "name": "char-limit-hint",
+  "version": "1.0.0",
+  "description": "To initialize the char limit feature on text input",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encoresky/char-limit-hint.git"
+  },
+  "keywords": [
+    "char-limit"
+  ],
+  "author": "Encoresky Technology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/encoresky/char-limit-hint/issues"
+  },
+  "homepage": "https://github.com/encoresky/char-limit-hint#readme"
+}
