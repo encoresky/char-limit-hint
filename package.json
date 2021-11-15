@@ -1,5 +1,5 @@
 {
-  "name": "char-limit-hint",
+  "name": "@encoreskytech/char-limit-hint",
   "version": "1.0.0",
   "description": "To initialize the char limit feature on text input",
   "main": "index.js",
