@@ -1,21 +1,18 @@
 Node.prototype.charLimit = function (limit) {
-
-  if(this.nodeName !== "TEXTAREA" && this.nodeName !== "INPUT") {
-
+  if (this.nodeName !== "TEXTAREA" && this.nodeName !== "INPUT") {
     var invalidElement = document.createElement("span");
     invalidElement.classList.add("invalid-element");
-    invalidElement.innerText = "Only input element is allowed";  
+    invalidElement.innerText = "Only input element is allowed";
     this.after(invalidElement);
 
     return 0;
-
   }
 
-  if(this.type !== "textarea" && this.type !== "text") {
-
+  if (this.type !== "textarea" && this.type !== "text") {
     var invalidElementType = document.createElement("span");
     invalidElementType.classList.add("invalid-element-type");
-    invalidElementType.innerText = "Only text and textarea input type is allowed";
+    invalidElementType.innerText =
+      "Only text and textarea input type is allowed";
     this.after(invalidElementType);
 
     return 0;
@@ -36,4 +33,9 @@ Node.prototype.charLimit = function (limit) {
   this.addEventListener("keyup", handleMouseUp, true);
 };
 
-var NodeCharElement = document.querySelector.bind(document);
+var NodeCharElement = null;
+if (typeof exports != "undefined") {
+  exports.NodeCharElement = document.querySelector.bind(document);
+} else {
+  NodeCharElement = document.querySelector.bind(document);
+}
