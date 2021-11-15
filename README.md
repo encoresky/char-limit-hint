@@ -7,3 +7,6 @@
 "<textarea id="element-1"></textarea>"
 ## And Just use it
 NodeCharElement("#element-1").charLimit(10);
+
+## Contributor
+[Vishal Chaturvedi](https://github.com/vishai12345)
