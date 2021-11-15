@@ -14,7 +14,7 @@ jobs:
 
       # Job for Minify-JS
       - name: Minify-JS Action
-        uses: jossydevers/minify-js@v1.0.0
+        uses: nizarmah/auto-minify@v2.1
         with:
           directory: 'src/index.js' # (OPTIONAL)
           output: 'dist/' # (OPTIONAL)
