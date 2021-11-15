@@ -18,6 +18,10 @@ jobs:
         with:
           directory: 'src/index.js' # (OPTIONAL)
           output: 'dist/' # (OPTIONAL)
+
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
           
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
