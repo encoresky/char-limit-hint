@@ -1,6 +1,6 @@
 {
   "name": "@encoreskytech/char-limit-hint",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "To initialize the char limit feature on text input",
   "main": "index.js",
   "module": "dist/index.min.js",
@@ -19,9 +19,9 @@
     "url": "git+https://github.com/encoresky/char-limit-hint.git"
   },
   "keywords": [
-    "javascript", 
-    "input hint", 
-    "character limit", 
+    "javascript",
+    "input hint",
+    "character limit",
     "maximum character limit",
     "Est",
     "Encoresky Technologies pvt ltd"
