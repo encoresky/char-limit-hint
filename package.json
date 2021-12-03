@@ -19,7 +19,12 @@
     "url": "git+https://github.com/encoresky/char-limit-hint.git"
   },
   "keywords": [
-    "char-limit"
+    "javascript", 
+    "input hint", 
+    "character limit", 
+    "maximum character limit",
+    "Est",
+    "Encoresky Technologies pvt ltd"
   ],
   "author": "Encoresky Technology",
   "license": "MIT",
